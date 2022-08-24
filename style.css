@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  width: 50vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#box {
+  max-width: 70%;
+  margin: 1em auto;
+  height: 25em;
+  background: rgb(70, 70, 70);
+
+}
+input{
+    max-width: 4em;
+}
